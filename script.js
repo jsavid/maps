@@ -51,9 +51,9 @@ const MAP_CONFIG = {
     regionsSelectable: false, // Strictly disable manual selection
     regionStyle: {
         initial: {
-            fill: '#dcfce7', // Pale green as requested
-            stroke: '#000000', // Thin black line as requested
-            strokeWidth: 0.1, // Even thinner lines for "realistic" look
+            fill: '#d4b483', // Brownish-tan for a classic parchment look
+            stroke: '#555555', // Softer dark gray
+            strokeWidth: 0.3, // Optimal thickness
             fillOpacity: 1
         },
         hover: {

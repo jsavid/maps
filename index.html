@@ -14,6 +14,20 @@
 </head>
 
 <body>
+    <!-- SVG Gradients for the Map -->
+    <svg width="0" height="0" style="position:absolute;z-index:-1;">
+        <defs>
+            <linearGradient id="earthGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" style="stop-color:#d2b48c;stop-opacity:1" /> <!-- Tan -->
+                <stop offset="100%" style="stop-color:#bc8f8f;stop-opacity:1" /> <!-- Rosy Brown -->
+            </linearGradient>
+            <linearGradient id="selectedGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" style="stop-color:#34d399;stop-opacity:1" /> <!-- Emerald 400 -->
+                <stop offset="100%" style="stop-color:#059669;stop-opacity:1" /> <!-- Emerald 600 -->
+            </linearGradient>
+        </defs>
+    </svg>
+
     <div class="background-mesh"></div>
 
     <div id="flash-overlay" class="flash-overlay"></div>
