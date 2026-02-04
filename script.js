@@ -51,17 +51,17 @@ const MAP_CONFIG = {
     regionsSelectable: false, // Strictly disable manual selection
     regionStyle: {
         initial: {
-            fill: '#1e293b',
-            stroke: '#334155',
-            strokeWidth: 0.5,
+            fill: '#dcfce7', // Pale green as requested
+            stroke: '#000000', // Thin black line as requested
+            strokeWidth: 0.1, // Even thinner lines for "realistic" look
             fillOpacity: 1
         },
         hover: {
-            fillOpacity: 1, // Disable hover effect
+            fillOpacity: 0.9,
             cursor: 'default'
         },
         selected: {
-            fill: '#10b981' // Accent color for correctly highlighted country
+            fill: '#10b981' // Keep emerald for the target country highlight
         }
     },
     onRegionTooltipShow(event, tooltip) {
