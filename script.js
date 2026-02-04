@@ -51,7 +51,7 @@ const MAP_CONFIG = {
     regionsSelectable: false, // Strictly disable manual selection
     regionStyle: {
         initial: {
-            fill: '#d4b483', // Brownish-tan for a classic parchment look
+            fill: '#a87932', // Bronze tone for a metallic, elegant look
             stroke: '#555555', // Softer dark gray
             strokeWidth: 0.3, // Optimal thickness
             fillOpacity: 1
