@@ -398,8 +398,10 @@ body {
 footer {
     position: fixed;
     bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 0;
+    right: 0;
+    text-align: center;
+    white-space: nowrap;
     font-size: 0.8rem;
     opacity: 0.5;
     z-index: 1000;
