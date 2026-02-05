@@ -61,7 +61,7 @@ const MAP_CONFIG = {
             cursor: 'default'
         },
         selected: {
-            fill: '#fbbf24' // Strong yellow/amber for the target country highlight
+            fill: '#dcfe4b' // Fluorescent yellow for maximum visibility
         }
     },
     onRegionTooltipShow(event, tooltip) {
