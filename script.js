@@ -61,7 +61,7 @@ const MAP_CONFIG = {
             cursor: 'default'
         },
         selected: {
-            fill: '#10b981' // Keep emerald for the target country highlight
+            fill: '#fbbf24' // Strong yellow/amber for the target country highlight
         }
     },
     onRegionTooltipShow(event, tooltip) {
